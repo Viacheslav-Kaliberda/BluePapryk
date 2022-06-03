@@ -1,0 +1,257 @@
+body{
+    width: 1440px;
+    margin: 0 auto;
+}
+.heder{
+    
+    position: relative;
+    width: 1440px;
+    height: 90px;
+    left: 0px;
+    top: 0px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 24px -5px rgba(0, 0, 0, 0.15);
+    margin:0 auto;
+    display: flex;
+    flex-direction: row-reverse;
+}
+.logo{
+    position: absolute;
+    width: 119.54px;
+    height: 51px;
+    left: 110px;
+    top: 20px;
+}
+.nawigacja{
+    position: absolute;
+    width: 1100px;
+    height: 57px;
+    left: 110px;
+    top: 16px;
+    padding-left: 246.46px;
+}
+
+a{
+    font-style: normal;
+    display: flex;
+    font-size: 16px;
+    font-family: 'Montserrat';
+    margin-top:20px;
+    margin-right: 47px;
+    float: left;
+    text-decoration: none;
+    color: #212121;
+}
+a::after{
+    color: red;
+}
+a:hover{
+    font-size: 16.5px;
+    
+    color:#181616;
+}
+button{
+    box-sizing: border-box;
+    position: absolute;
+    width: 152px;
+    height: 57px;
+    right: 110px;
+    background: #FFB001;
+    border: 2px solid #FFB001;
+    box-shadow: 0px 20px 59px -10px rgba(0, 0, 0, 0.15);
+    border-radius: 28.5px;
+}
+.kruszarka{
+    position: absolute;
+width: 861px;
+height: 975px;
+left: 290px;
+top: 357px;
+}
+h1{
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 900;
+font-size: 55px;
+line-height: 67px;
+text-align: center;
+color: #212121;
+position: absolute;
+width: 997px;
+height: 140px;
+left: 222px;
+top: 164px;
+}
+.text{
+    background: #FFB001;
+border: 20px solid #FFFFFF;
+border-radius: 30px;
+position: absolute;
+width: 1440px;
+height: 365px;
+left: 19.6px;
+top: 933px;
+text-align: center;
+}
+.tekst{
+
+width: 781px;
+height: 95px;
+
+font-weight:bold;
+font-weight: 900;
+font-size: 40px;
+line-height: 49px;
+display: flex;
+margin: 0 auto;
+margin-top: 80px;
+align-items: center;
+text-align: center;
+color: #212121;
+}
+p{
+
+width: 711px;
+height: 64px;
+
+margin: 0 auto;
+margin-bottom: 6px;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 32px;
+text-align: center;
+color: #212121;
+}
+
+/* !!!!!!!KALKULATOR!!!!!!! */
+.kalkulator{
+    top: 1300px;
+    position: absolute;
+}
+.text1{
+    position: absolute;
+width: 617px;
+height: 49px;
+left: 412px;
+top: 90px;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 900;
+font-size: 40px;
+line-height: 49px;
+text-align: center;
+color: #212121;
+}
+.text2 {
+    position: absolute;
+width: 214px;
+height: 32px;
+left: 613px;
+top: 178px;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 32px;
+text-align: center;
+color: #212121;
+}
+.rectangle1{
+    position: absolute;
+    width: 491px;
+    height: 260px;
+    left: 214px;
+    top: 293px;
+    background: #e9e5e5;
+    border-radius: 15px;
+}
+.wop1 {
+    width: 300px;
+height: 60px;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 900;
+font-size: 20px;
+line-height: 30px;
+display: flex;
+margin: 0 auto;
+margin-top: 40px;
+margin-bottom: 40px;
+align-items: center;
+text-align: center;
+
+color: #212121;
+}
+#pole1{
+box-sizing: border-box;
+display: flex;
+margin: 0 auto;
+width: 225px;
+height: 70px;
+background: #FFFFFF;
+border: 1px solid #212121;
+border-radius: 15px;
+}
+
+.rectangle2{
+    position: absolute;
+width: 491px;
+height: 260px;
+left: 735px;
+top: 293px;
+background: #e9e5e5;
+border-radius: 15px;
+}
+.wop2{
+    width: 339px;
+height: 60px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #212121;
+    
+margin: 0 auto;
+margin-top: 40px;
+margin-bottom: 40px;
+}
+#pole2{
+    box-sizing: border-box;
+display: flex;
+margin: 0 auto;
+width: 225px;
+height: 70px;
+background: #FFFFFF;
+border: 1px solid #212121;
+border-radius: 15px;
+}
+.click{
+    position: absolute;
+width: 1012px;
+height: 127px;
+left: 214px;
+top: 683px;
+background: #212121;
+border-radius: 15px;
+}
+.click:hover{
+    width: 1015px;
+    height: 130px;
+    box-shadow: 0px 4px 24px -5px rgba(0, 0, 0, 0.15);
+}
+#oblicz{
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 900;
+font-size: 20px;
+line-height: 30px;
+margin: 0 auto;
+color: #FFFFFF;
+}
+
